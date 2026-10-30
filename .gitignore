@@ -14,3 +14,8 @@ artifacts/
 # 训练出来的模型文件
 *.pkl
 *.pt
+
+mlartifacts/
+mlruns/
+mlflow.db
+artifacts/
