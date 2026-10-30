@@ -1,0 +1,16 @@
+# Python虚拟环境，很大，每个人本地自己装，不用上传
+.venv/
+venv/
+# Python编译缓存垃圾
+__pycache__/
+*.pyc
+# MLflow实验数据、模型文件，体积大，不属于代码，不上仓库
+mlruns/
+mlflow.db
+artifacts/
+# IDE配置，每个人电脑不一样
+.idea/
+.vscode/
+# 训练出来的模型文件
+*.pkl
+*.pt

@@ -1,0 +1,6 @@
+.venv          # 虚拟环境，镜像里面会单独装依赖，不需要本机的虚拟环境
+.git           # git版本记录，镜像不需要git信息
+__pycache__    # python缓存
+.idea
+.vscode        # 编辑器配置
+mlruns         # 模型实验缓存，不打进镜像（咱们现在这套远程MLflow方案必须忽略它！）
